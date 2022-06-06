@@ -1,0 +1,168 @@
+<!DOCTYPE html>  <!--지장간-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #a1, #b1, #b2, #b3, #b4{
+            font-size: 26px;
+        }
+        
+        #check{
+            font-size: 30px;
+        }
+        #result1, #result2, #result3, #result4{
+            font-size: 26px;
+        }
+        #nemo{
+            border:solid 1px gray;
+            width: 350px;
+        }
+        table, td, th {
+      font-size: 21px;
+      border : 1px solid rgb(55, 62, 187);
+      border-collapse : collapse;
+      padding:5px;
+      text-align: center;
+      
+      }
+      #tab{
+         margin-top:10px;
+         float:left;
+      }
+      #td2,#td3{
+         padding-left: 17px;
+         padding-right: 17px;
+      }
+      #air1, #air2{
+        font-size: 20px;
+      }
+       
+  </style> 
+   
+       <table id="tab">
+          <tr>
+            <td onClick = "location.href ='4.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >오행의 소속</td>
+            <td id="td2" onClick = "location.href ='3.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >24절기</td>
+            <td id="td3" onClick = "location.href ='5.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >조견표</td>
+          </tr>
+          <tr>
+            <td onClick = "location.href ='7.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >합형충파해</td>
+            <td onClick = "location.href ='1.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >12운성</td>
+            <td onClick = "location.href ='6.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >지장간</td>
+          </tr>
+          <tr>
+            <td onClick = "location.href ='a1.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >납음오행</td>
+            <td bgcolor=yellow onClick = "location.href ='a2.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='yellow'" >풍수1</td>
+            <td onClick = "location.href ='a3.html'" style = "cursor:pointer;" onMouseOver = "this.style.color='white', this.style.background='blue'" onMouseOut ="this.style.color='black', this.style.background='white'" >풍수2</td>
+          </tr>
+      </table>
+      <br><br>&nbsp;
+      <span><button id="air1" onClick = "location.href ='a5.html'" onclick="air1()">납음1</button></span>
+      <br>&nbsp;
+      <br>&nbsp;
+      <span><button id="air2" onClick = "location.href ='a4.html'" onclick="air2()">납음2</button></span>
+      <br><br>
+    <div id="nemo">
+    <button id="a1" onclick="test()" >클릭</button>
+    &nbsp;&nbsp;&nbsp;
+    <span id="check"></span>
+    
+    <br><br><br><br>
+    
+    <button id="b1" onclick="result1()" >三合</button>
+    &nbsp;&nbsp;&nbsp;
+    <span id="result1"></span>
+    <br>
+    <button id="b2" onclick="result2()" >雙山</button>
+    &nbsp;&nbsp;&nbsp;
+    <span id="result2"></span>
+    <br>
+    <button id="b3" onclick="result3()" >四局</button>
+    &nbsp;&nbsp;&nbsp;
+    <span id="result3"></span>
+    <br>
+    <button id="b4" onclick="result4()" >星宿</button>
+    &nbsp;&nbsp;&nbsp;
+    <span id="result4"></span>
+    <br>     
+    
+    <script>
+        var sam;
+        function result1(){  
+            document.getElementById("result1").style.display="inline"; 
+        }
+        function result2(){  
+            document.getElementById("result2").style.display="inline"; 
+        }
+        function result3(){  
+            document.getElementById("result3").style.display="inline"; 
+        }
+        function result4(){  
+            document.getElementById("result4").style.display="inline"; 
+        }
+        function test() {
+            
+            document.getElementById("result1").style.display="none";
+            document.getElementById("result2").style.display="none";
+            document.getElementById("result3").style.display="none";
+            document.getElementById("result4").style.display="none";
+            var x =  Math.floor(Math.random() * 5); // 0 ~ 4
+            var x1, y1, y2, y3, y4
+            if (x==sam) {
+               if(x==0){
+                   x=x+1;
+               } else {
+                  x=x-1;
+               } 
+            } 
+            if (x==0) {
+                x1="木"
+                y1="亥卯未 (해묘미)"
+                y2="乾甲丁 (건갑정)"
+                y3="丁未 坤申 庚酉"
+                y4="乾坤艮巽 (건곤간손)"
+            } else if (x==1){
+                x1="火"
+                y1="寅午戌 (인오술)"
+                y2="艮丙辛 (간병신)"
+                y3="辛戌 乾亥 壬子"
+                y4="甲庚丙壬 子午卯酉"
+            } else if (x==2){
+                x1="金"
+                y1="巳酉丑 (사유축)"
+                y2="巽庚癸 (손경계)"
+                y3="癸丑 艮寅 甲卯"
+                y4="辰戌丑未 (진술축미)"
+            } else if (x==3){
+                x1="水"  
+                y1="申子辰 (신자진)"
+                y2="坤壬乙 (곤임을)"
+                y3="乙辰 巽巳 丙午"
+                y4="寅申巳亥 인신사해"
+            } else if (x==4){
+                x1="土"  
+                y1="없음"
+                y2="없음"
+                y3="없음"
+                y4="乙辛丁癸 (을신정계)"
+            }
+            sam=x;
+            document.getElementById("check").innerHTML = x1;
+            document.getElementById("result1").innerHTML = y1;
+            document.getElementById("result2").innerHTML = y2;
+            document.getElementById("result3").innerHTML = y3;
+            document.getElementById("result4").innerHTML = y4;
+            
+            
+        }
+        
+    </script>
+    </div>
+ 
+</body>
+</html>
