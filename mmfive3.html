@@ -1,0 +1,77 @@
+<!DOCTYPE html> <!--오행의 소속-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <link rel="stylesheet" href="ind.css" type="text/css">
+  <link rel="stylesheet" href="mm_five3.css" type="text/css">
+  
+  
+  <p> 
+    
+     &nbsp;&nbsp;&nbsp; 
+     <select class="co" onchange="location.href=this.value">
+      <option value="index.html">Home</option>     
+      <option value="five3.html">오행의 소속</option>
+      <option value="sea2.html">24절기</option>
+      <option value="moho.html">월지.시지</option>
+      <option value="hab3.html">합형충파해</option>
+      <option value="lucky12.html">12운성</option>
+      <option value="earth.html">지장간</option>
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp; 
+  <select class="co" onchange="location.href=this.value">
+    <option value="index.html">Home</option>
+    <option value="eight2.html">방위</option>
+    <option value="mmfive3.html" selected>풍수오행</option>
+    <option value="sound4.html">납음오행</option>  
+  </select>
+       
+     </p> 
+     <br>
+      
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     
+     <button type="button"  class="Step" onclick="location.href='mmfive1.html'">step1</button>
+     <button type="button"  class="Step" onclick="location.href='mmfive2.html'">step2</button>
+     <button type="button"  id="hi" class="Step" onclick="location.href='mmfive3.html'">step3</button>
+     <br><br><br>
+          
+      
+     <button class="tip" onclick="result3()">Tip</button>
+    &nbsp;&nbsp;
+    <button class="tip" onclick="result4()">Tip</button>
+    <br><br>
+    <script type="text/javascript" src="mm_five3.js"></script>
+    <div class="nemo">
+    <button id="a1" onclick="test()" >클릭</button>
+    &nbsp;&nbsp;
+    <span id="check"></span>
+    
+    <br><br><br><br><br>
+    
+    
+    <button id="b1" onclick="result1()">오행</button>
+    &nbsp;&nbsp;
+    <span id="result1"></span>
+    <br><br>
+    <button id="b2" onclick="result2()">용도</button>
+    &nbsp;&nbsp;
+    <span id="result2"></span>
+    <br><br>
+    <div class="nemo">
+      <span id="result3"></span>
+      <span id="result4"></span>
+      <br>
+      <span id="result5"></span>
+      <span id="result6"></span>
+    </div>
+    </body>
+  </html>
+    

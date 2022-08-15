@@ -1,0 +1,298 @@
+.Step{
+  font-size: 18px;
+  width: 70px;
+  height: 30px;
+}
+  .co{
+    font-size: 22px;
+  }
+  #hi{
+    background-color:powderblue;
+  }
+  p{
+    border:solid 1px gray;
+    width: 325px;
+    padding-bottom: 5px;
+    background-color:rgb(156, 190, 220)
+  }
+  .btn_w{
+    position: absolute;
+    font-size: 16px;
+    width:62px;
+    height: 32px;
+  }
+  #btn51,#btn52,#btn53,#btn54,#btn55 {
+    font-size:14px ;
+  }
+  #btn1{
+    position: absolute;
+    top:142px;
+    left:12px;
+  }
+  #btn2{
+    position: absolute;
+    top:142px;
+    left:78px;
+  }
+  #btn3{
+    position: absolute;
+    top:142px;
+    left:143px;
+  }
+  #btn4{
+    position: absolute;
+    top:142px;
+    left:208px;
+  }
+  #btn5{
+    position: absolute;
+    top:142px;
+    left:273px;
+  }
+  #btn6{
+    position: absolute;
+    top:174px;
+    left:12px;
+  }
+  #btn7{
+    position: absolute;
+    top:174px;
+    left:78px;
+  }
+  #btn8{
+    position: absolute;
+    top:174px;
+    left:143px;
+  }
+  #btn9{
+    position: absolute;
+    top:174px;
+    left:208px;
+  }
+  #btn10{
+    position: absolute;
+    top:174px;
+    left:273px;
+  }
+  #btn11{
+    position: absolute;
+    top:205px;
+    left:12px;
+  }
+  #btn12{
+    position: absolute;
+    top:205px;
+    left:78px;
+  }
+  #btn13{
+    position: absolute;
+    top:205px;
+    left:143px;
+  }
+  #btn14{
+    position: absolute;
+    top:205px;
+    left:208px;
+  }
+  #btn15{
+    position: absolute;
+    top:205px;
+    left:273px;
+  }
+  #btn16{
+    position: absolute;
+    top:237px;
+    left:12px;
+  }
+  #btn17{
+    position: absolute;
+    top:237px;
+    left:78px;
+  }
+  #btn18{
+    position: absolute;
+    top:237px;
+    left:143px;
+  }
+  #btn19{
+    position: absolute;
+    top:237px;
+    left:208px;
+  }
+  #btn20{
+    position: absolute;
+    top:237px;
+    left:273px;
+  }
+  #btn21{
+    position: absolute;
+    top:269px;
+    left:12px;
+  }
+  #btn22{
+    position: absolute;
+    top:269px;
+    left:78px;
+  }
+  #btn23{
+    position: absolute;
+    top:269px;
+    left:143px;
+  }
+  #btn24{
+    position: absolute;
+    top:269px;
+    left:208px;
+  }
+  #btn25{
+    position: absolute;
+    top:269px;
+    left:273px;
+  }
+  #btn26{
+    position: absolute;
+    top:300px;
+    left:12px;
+  }
+  #btn27{
+    position: absolute;
+    top:300px;
+    left:78px;
+  }
+  #btn28{
+    position: absolute;
+    top:300px;
+    left:143px;
+  }
+  #btn29{
+    position: absolute;
+    top:300px;
+    left:208px;
+  }
+  #btn30{
+    position: absolute;
+    top:300px;
+    left:273px;
+  }
+  #btn31{
+    position: absolute;
+    top:331px;
+    left:12px;
+  }
+  #btn32{
+    position: absolute;
+    top:331px;
+    left:78px;
+  }
+  #btn33{
+    position: absolute;
+    top:331px;
+    left:143px;
+  }
+  #btn34{
+    position: absolute;
+    top:331px;
+    left:208px;
+  }
+  #btn35{
+    position: absolute;
+    top:331px;
+    left:273px;
+  }
+  #btn36{
+    position: absolute;
+    top:363px;
+    left:12px;
+  }
+  #btn37{
+    position: absolute;
+    top:363px;
+    left:78px;
+  }
+  #btn38{
+    position: absolute;
+    top:363px;
+    left:143px;
+  }
+  #btn39{
+    position: absolute;
+    top:363px;
+    left:208px;
+  }
+  #btn40{
+    position: absolute;
+    top:363px;
+    left:273px;
+  }
+  #btn41{
+    position: absolute;
+    top:395px;
+    left:12px;
+  }
+  #btn42{
+    position: absolute;
+    top:395px;
+    left:78px;
+  }
+  #btn43{
+    position: absolute;
+    top:395px;
+    left:143px;
+  }
+  #btn44{
+    position: absolute;
+    top:395px;
+    left:208px;
+  }
+  #btn45{
+    position: absolute;
+    top:395px;
+    left:273px;
+  }
+  #btn46{
+    position: absolute;
+    top:426px;
+    left:12px;
+  }
+  #btn47{
+    position: absolute;
+    top:426px;
+    left:78px;
+  }
+  #btn48{
+    position: absolute;
+    top:426px;
+    left:143px;
+  }
+  #btn49{
+    position: absolute;
+    top:426px;
+    left:208px;
+  }
+  #btn50{
+    position: absolute;
+    top:426px;
+    left:273px;
+  }
+  #btn51{
+    position: absolute;
+    top:457px;
+    left:12px;
+  }#btn52{
+    position: absolute;
+    top:457px;
+    left:78px;
+  }#btn53{
+    position: absolute;
+    top:457px;
+    left:143px;
+  }#btn54{
+    position: absolute;
+    top:457px;
+    left:208px;
+  }#btn55{
+    position: absolute;
+    top:457px;
+    left:273px;
+  }
+  

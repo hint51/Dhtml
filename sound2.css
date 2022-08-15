@@ -1,0 +1,68 @@
+.btn_w{
+    position: absolute;
+    width: 30px;
+    height: 38px;
+    font-size: 20px;  
+    }
+    .btn_A{
+    position: absolute;
+      width: 30px;
+      height: 50px;
+      font-size: 20px;
+      
+    }
+    .btn_B{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;    
+    }
+    .btn_C{
+        position: absolute;
+        width: 30px;
+        height: 78px;
+        font-size: 20px;
+    }
+    .btn_D{
+      position: absolute;
+      width: 50px;
+      height: 78px;
+      font-size: 17px;
+  }
+  #btn_H{
+    position: absolute;
+        width: 100px;
+        height: 30px; 
+    font-size: 16px;
+  }
+    .Step{
+      font-size: 18px;
+    }
+    .co{
+      font-size: 22px;
+    }
+    p{
+      border:solid 1px gray;
+      width: 325px;
+      padding-bottom: 5px;
+      background-color:rgb(156, 190, 220)
+    }
+    #hi{
+      background-color:powderblue;
+    }
+    #a1, #a2, #a3, #a4, #a5,#a6, #a7, #a8, #a9,#a10, #a11, #a12, #a13, #a14, #a15{
+        font-size: 25px;
+        width: 117px;
+        height:40px;
+    }
+    #a16, #a17, #a18, #a19,#a20, #a21, #a22, #a23, #a24, #a25, #a26, #a27, #a28, #a29, #a30{
+        font-size: 25px;
+        width: 117px;
+        height:40px;
+    }
+    
+          
+    #nemo{
+        border:solid 1px gray;
+        width: 400px;
+    }   

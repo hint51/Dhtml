@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!--오행의 소속-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <link rel="stylesheet" href="ind.css" type="text/css">
+  <link rel="stylesheet" href="lucky12.css" type="text/css">
+  <p> 
+    
+     &nbsp;&nbsp;&nbsp; 
+     <select class="co" onchange="location.href=this.value">
+      <option value="index.html">Home</option>     
+      <option value="five3.html">오행의 소속</option>
+      <option value="sea2.html">24절기</option>
+      <option value="moho.html">월지.시지</option>
+      <option value="hab3.html">합형충파해</option>
+      <option value="lucky12.html" selected>12운성</option>
+      <option value="earth.html">지장간</option>
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp; 
+  <select class="co" onchange="location.href=this.value">
+    <option value="index.html">Home</option>
+    <option value="eight2.html">방위</option>
+    <option value="mmfive3.html">풍수오행</option>
+    <option value="sound4.html">납음오행</option>  
+  </select>
+       &nbsp;
+     </p> 
+     
+     
+     <br><br>
+     <div id="nemo1">
+        <button onclick="test()" >클릭</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="sky" ></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="lucky"></span>
+        <br>
+        <br>
+        <br>
+        <button id="b1" onclick="check()" >확인</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="check" style="display:none;"></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="limit" style="display:none;"></span>
+         
+        <script type="text/javascript" src="lucky12_1.js"></script>
+      </div>
+
+      <div id="nemo2">
+
+        <button onclick="test1()" >클릭</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="sky1" ></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="lucky1"></span>
+        <br>
+        <br>
+        <br>
+        <button id="b2" onclick="check1()" >확인</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+        <span id="check1" style="display:none;"></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="limit1" style="display:none;"></span>
+
+        <script type="text/javascript" src="lucky12_2.js"></script>
+        </div>
+   
+    </div> 
+    <br>&nbsp;&nbsp;&nbsp;
+    <button id="know" onclick="know()">Tip</button>
+    <div id="tip" style="display:none;">
+       양간 - 전(앞)계절부터 장생, 목욕, 관대  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;순으로 시작함 <br>
+       음간 - 양간의 장생 <-> 사, 목욕 <-> 병<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 관대 <-> 쇠,
+              건록 <-> 제왕<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 묘 <-> 양, 절 <-> 태     
+    </div>
+    <script type="text/javascript" src="lucky12_3.js"></script>

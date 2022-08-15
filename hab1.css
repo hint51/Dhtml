@@ -1,0 +1,37 @@
+
+    .Step{
+        font-size: 18px;
+      }
+      .co{
+        font-size: 22px;
+      }
+     .hab{
+        font-size: 15px; 
+     }
+     #hi{
+        background-color:powderblue;
+      }
+      #hi_b{
+        background-color:rgb(232, 206, 165);
+      }
+      p{
+        border:solid 1px gray;
+        width: 325px;
+        padding-bottom: 5px;
+        background-color:rgb(156, 190, 220)
+      }
+  #a1, #b1, #b2{
+      font-size: 26px;
+  }
+  
+  #check{
+      font-size: 30px;
+  }
+  #result{
+      font-size: 26px;
+  }
+  .nemo{
+      border:solid 1px gray;
+      width: 320px;
+      font-size: 19px;
+  }

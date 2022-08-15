@@ -1,0 +1,180 @@
+<!DOCTYPE html> <!--오행의 소속-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <link rel="stylesheet" href="ind.css" type="text/css">
+  <link rel="stylesheet" href="five2.css" type="text/css">
+  <p> 
+   
+     <select class="co" onchange="location.href=this.value">
+      <option value="index.html">Home</option>     
+      <option value="five3.html" selected>오행의 소속</option>
+      <option value="sea2.html">24절기</option>
+      <option value="moho.html">월지.시지</option>
+      <option value="hab3.html">합형충파해</option>
+      <option value="lucky12.html">12운성</option>
+      <option value="earth.html">지장간</option>
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp; 
+  <select class="co" onchange="location.href=this.value">
+    <option value="index.html">Home</option>
+    <option value="eight2.html">방위</option>
+    <option value="mmfive3.html">풍수오행</option>
+    <option value="sound4.html">납음오행</option>  
+  </select>
+       &nbsp;
+     </p> 
+    
+     <button id="btn_A" type="button" onclick="btn_A()">전체보이기</button>
+     &nbsp;&nbsp;
+     <button type="button" class="Step" onclick="location.href='five1.html'">step1①</button>
+     <button type="button" id="hi" class="Step" onclick="location.href='five2.html'">step1②</button>
+     <button type="button" class="Step" onclick="location.href='five3.html'">step2</button>
+    
+    
+   
+    <script type="text/javascript" src="five2.js">
+    </script>
+    
+    <article>
+      <img src="./five2.png" width="330">
+  </article>
+  
+<button class="btn_w" id="btn1" type="button"onclick="result1()">형상</button>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="btn_w" id="btn2" type="button" onclick="result2()">형상</button>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn3" type="button" onclick="result3()">형상</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn4" type="button" onclick="result4()">형상</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn5" type="button" onclick="result5()">형상</button>
+    <br>
+    <br>
+    <button class="btn_w" id="btn6" type="button" onclick="result6()">천간</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn7" type="button" onclick="result7()">천간</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn8" type="button" onclick="result8()">천간</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn9" type="button" onclick="result9()">천간</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn10" type="button" onclick="result10()">천간</button>
+    <br>
+    <br>
+    <button class="btn_w" id="btn11" type="button" onclick="result11()">지지</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn12" type="button" onclick="result12()">지지</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn13" type="button" onclick="result13()">지지</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn14" type="button" onclick="result14()">지지</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn15" type="button" onclick="result15()">지지</button>
+    <br>
+    <br>
+    
+    <button class="btn_w" id="btn16" type="button" onclick="result16()">하루</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn17" type="button" onclick="result17()">하루</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn18" type="button" onclick="result18()">하루</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn19" type="button" onclick="result19()">하루</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn20" type="button" onclick="result20()">하루</button>
+    <br>
+    <br>
+    
+    <button class="btn_w" id="btn21" type="button" onclick="result21()">절기</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn22" type="button" onclick="result22()">절기</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn23" type="button" onclick="result23()">절기</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn24" type="button" onclick="result24()">절기</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn25" type="button" onclick="result25()">절기</button>
+    <br>
+    <br>
+    
+    <button class="btn_w" id="btn26" type="button" onclick="result26()">방위</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn27" type="button" onclick="result27()">방위</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn28" type="button" onclick="result28()">방위</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn29" type="button" onclick="result29()">방위</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn30" type="button" onclick="result30()">방위</button>
+    <br>
+    <br>
+    
+    <button class="btn_w" id="btn31" type="button" onclick="result31()">色相</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn32" type="button" onclick="result32()">色相</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn33" type="button" onclick="result33()">色相</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn34" type="button" onclick="result34()">色相</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn35" type="button" onclick="result35()">色相</button>
+    <br>
+    <br>
+    
+    <button class="btn_w" id="btn36" type="button" onclick="result36()">인생</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn37" type="button" onclick="result37()">인생</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn38" type="button" onclick="result38()">인생</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn39" type="button" onclick="result39()">인생</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn40" type="button" onclick="result40()">인생</button>
+    <br>
+    <br>
+    
+    <button class="btn_w" id="btn41" type="button" onclick="result41()">마음</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn42" type="button" onclick="result42()">마음</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn43" type="button" onclick="result43()">마음</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn44" type="button" onclick="result44()">마음</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn45" type="button" onclick="result45()">마음</button>
+    <br>
+    <br>
+    
+    <button class="btn_w" id="btn46" type="button" onclick="result46()">職業</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn47" type="button" onclick="result47()">職業</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn48" type="button" onclick="result48()">職業</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn49" type="button" onclick="result49()">職業</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn50" type="button" onclick="result50()">職業</button>
+    <br><br>
+    <button class="btn_w" id="btn51" type="button" onclick="result51()">後天數</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn52" type="button" onclick="result52()">後天數</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn53" type="button" onclick="result53()">後天數</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn54" type="button" onclick="result54()">後天數</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn55" type="button" onclick="result55()">後天數</button>
+    <br><br>
+
+    
+</body>
+</html>

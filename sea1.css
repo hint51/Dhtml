@@ -1,0 +1,119 @@
+.btn_w{
+  position: absolute;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+  }
+  .Step{
+    font-size: 18px;
+  }
+ 
+  .co{
+    font-size: 22px;
+  }
+  p{
+    border:solid 1px gray;
+    width: 325px;
+    padding-bottom: 5px;
+    background-color:rgb(156, 190, 220)
+  }
+  #hi{
+    background-color:powderblue;
+  }
+  
+  #btn1{
+    top:141px;
+    left:55px;
+  }
+  #btn2{
+    top:141px;
+    left:200px;
+  }
+  #btn3{
+    top:183px;
+    left:55px;
+  }
+  #btn4{
+    top:183px;
+    left:200px;
+  }
+  #btn5{
+    top:225px;
+    left:55px;
+  }
+  #btn6{
+    top:225px;
+    left:200px;
+  }
+  #btn7{
+    top:267px;
+    left:55px;
+  }
+  #btn8{
+    top:267px;
+    left:200px;
+  }
+  #btn9{
+    top:309px;
+    left:55px;
+  }
+  #btn10{
+    top:309px;
+    left:200px;
+  }
+  #btn11{
+    top:351px;
+    left:55px;
+  }
+  #btn12{
+    top:351px;
+    left:200px;
+  }
+  #btn13{
+    top:393px;
+    left:55px;
+  }
+  #btn14{
+    top:393px;
+    left:200px;
+  }
+  #btn15{
+    top:435px;
+    left:55px;
+  }
+  #btn16{
+    top:435px;
+    left:200px;
+  }
+  #btn17{
+    top:477px;
+    left:55px;
+  }
+  #btn18{
+    top:477px;
+    left:200px;
+  }
+  #btn19{
+    top:519px;
+    left:55px;
+  }
+  #btn20{
+    top:519px;
+    left:200px;
+  }
+  #btn21{
+    top:561px;
+    left:55px;
+  }
+  #btn22{
+    top:561px;
+    left:200px;
+  }
+  #btn23{
+    top:601px;
+    left:55px;
+  }
+  #btn24{
+    top:601px;
+    left:200px;
+  }

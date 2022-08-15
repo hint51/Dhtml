@@ -1,0 +1,31 @@
+.Step{
+    font-size: 18px;
+  }
+  .co{
+    font-size: 22px;
+  }
+#a1, #b1{
+    font-size: 30px;
+}
+#b2, #b3{
+    font-size: 30px;
+}
+#check, #result1{
+    font-size: 30px;
+}
+#result2,#result3,#result4{
+    font-size: 22px;
+}
+div{
+    border:solid 1px gray;
+    width: 320px;
+}
+p{
+    border:solid 1px gray;
+    width: 325px;
+    padding-bottom: 5px;
+    background-color:rgb(156, 190, 220)
+  }
+  #hi{
+    background-color:powderblue;
+  }

@@ -1,0 +1,27 @@
+#nemo{
+    border:solid 1px gray;
+    width: 320px;
+    }
+    .Step{
+      font-size: 18px;
+      width: 80px;
+      height: 30px;
+    }
+    #a1, #b1{
+    font-size: 26px;
+    }
+    #result{
+    font-size: 25px;
+    }
+    #check{
+    font-size: 25px;
+    }
+    #hi{
+      background-color:powderblue;
+    }
+    p{
+      border:solid 1px gray;
+      width: 325px;
+      padding-bottom: 5px;
+      background-color:rgb(156, 190, 220)
+    }
