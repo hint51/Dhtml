@@ -4,6 +4,9 @@
   .co{
     font-size: 22px;
   }
+  .b1{
+    font-size: 22px;
+  }
   p{
     border:solid 1px gray;
     width: 325px;
@@ -13,8 +16,8 @@
   #hi{
     background-color:powderblue;
   }
-  #a1, #b1{
-    font-size: 30px;
+  .bu{
+    font-size: 28px;
 }
 
 #check{
@@ -31,5 +34,5 @@
   border:solid 1px gray;
   background-color: bisque;
 
-  width: 300px;
+  width: 320px;
 }
