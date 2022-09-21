@@ -448,3 +448,14 @@ function test(){
     document.getElementById("check8").innerHTML = y8;
 
 }
+function Tip(){
+    if (document.getElementById("T2").innerText=="") {
+        document.getElementById("T2").innerHTML = "月: 자축인묘(인성)";
+        document.getElementById("T3").innerHTML = "時: 자축술해(관성)";
+        document.getElementById("T4").innerHTML = "공통 : 진사(비견), 오미(식상), 신유(재성)";
+    } else {
+        document.getElementById("T2").innerHTML=""
+        document.getElementById("T3").innerHTML=""
+        document.getElementById("T4").innerHTML=""
+    }
+}
