@@ -42,6 +42,17 @@
     font{
         color:teal;
     }
+    #bt2{
+      font-weight: bold;
+      
+      background-color:rgb(196, 239, 206);
+      
+     }
+     #bt1{
+      font-weight:normal;
+      background-color: rgb(255, 251, 251);
+      
+     }
    
     
   

@@ -1,0 +1,25 @@
+
+    .co{
+      font-size: 22px;
+    }
+    p{
+      border:solid 1px gray;
+      width: 325px;
+      padding-bottom: 5px;
+      background-color:rgb(156, 190, 220)
+    }
+    
+    #bt2{
+    font-weight:normal;
+    background-color:rgb(255, 251, 251);
+    
+   }
+   #bt1{
+    font-weight: bold;
+    background-color: rgb(196, 239, 206);
+    
+   }
+    
+  
+  
+ 
