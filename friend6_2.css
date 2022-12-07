@@ -10,12 +10,13 @@
     }
     
     #bt1{    /*강약*/
-      font-weight: bold;
-      background-color: rgb(196, 239, 206);
+      font-weight:normal;
+    background-color:rgb(255, 251, 251);
+      
      }
     #bt2{   /*용신1*/
-    font-weight:normal;
-    background-color:rgb(255, 251, 251);
+      font-weight: bold;
+      background-color: rgb(196, 239, 206);
     
    }
    #bt3{    /*용신2*/
