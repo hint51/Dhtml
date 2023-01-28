@@ -1,0 +1,33 @@
+
+  .co{
+    font-size: 22px;
+  }
+  
+  p{
+    border:solid 1px gray;
+    width: 325px;
+    padding-bottom: 5px;
+    background-color:rgb(156, 190, 220)
+  }
+  #hi{
+    background-color:powderblue;
+  }
+  button{
+    font-size:18px;
+  
+ }
+ 
+ article{
+   border:solid 1px rgb(69, 72, 225);
+   width: 380px;
+   padding-bottom: 5px;
+   background-color:rgb(227, 245, 199)
+ }
+ 
+ 
+ #b1, #b2{
+    background-color:rgba(116, 190, 230, 0.346)
+ }
+ 
+ 
+ 
