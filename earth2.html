@@ -1,0 +1,162 @@
+<!DOCTYPE html> <!--오행의 소속-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <link rel="stylesheet" href="ind.css" type="text/css">
+  <link rel="stylesheet" href="earth2.css" type="text/css">
+  <p> 
+    
+       <!--font size="5">①</font-->
+       
+     <!--font size="4" color="blue">역학</font>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+     <font size="4" color="blue">풍수</font><br-->
+     &nbsp;&nbsp;&nbsp; 
+     <select class="co" onchange="location.href=this.value">
+      <option value="index.html">Home</option>     
+      <option value="five3.html">오행의 소속</option>
+      <option value="sea2.html">24절기</option>
+      <option value="moho.html">월지.시지</option>
+      <option value="friend6.html">육친</option>
+      <option value="hab3.html">합형충파해</option>
+      <option value="lucky12.html">12운성</option>
+      <option value="earth.html"selected>지장간</option>
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp; 
+  <select class="co" onchange="location.href=this.value">
+    <option value="index.html">Home</option>
+    <option value="eight2.html">방위</option>
+    <option value="mmfive3.html">풍수오행</option>
+    <option value="sound4.html">납음오행</option>  
+  </select>
+       &nbsp;
+     </p> 
+     <button id="btn_A" type="button" onclick="btn_A()">전체보이기</button>
+     &nbsp;&nbsp;
+     
+    
+     <button type="button" class="Step" onclick="location.href='earth1.html'">step1</button>
+     <button type="button" id="hi"class="Step" onclick="location.href='earth2.html'">step2</button>
+     <button type="button" class="Step" onclick="location.href='earth.html'">step3</button>
+    <br>
+     <div id="nemo">
+       
+    </div>
+    <article>
+      <img src="earth.jpg" width="330">
+      <script type="text/javascript" src="earth2.js">
+      </script>
+    </article>
+  
+    <button class="btn_w" id="btn1" type="button"onclick="result1()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn2" type="button" onclick="result2()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn3" type="button" onclick="result3()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn4" type="button" onclick="result4()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn5" type="button" onclick="result5()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn6" type="button" onclick="result6()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn7" type="button" onclick="result7()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn8" type="button" onclick="result8()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn9" type="button" onclick="result9()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn10" type="button" onclick="result10()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn11" type="button" onclick="result11()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn12" type="button" onclick="result12()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn13" type="button" onclick="result13()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn14" type="button" onclick="result14()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn15" type="button" onclick="result15()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn16" type="button" onclick="result16()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn17" type="button" onclick="result17()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn18" type="button" onclick="result18()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn19" type="button" onclick="result19()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn20" type="button" onclick="result20()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn21" type="button" onclick="result21()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn22" type="button" onclick="result22()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn23" type="button" onclick="result23()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn24" type="button" onclick="result24()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn25" type="button" onclick="result25()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn26" type="button" onclick="result26()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn27" type="button" onclick="result27()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn28" type="button" onclick="result28()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn29" type="button" onclick="result29()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn30" type="button" onclick="result30()"></button>
+    <br>
+    <br>
+    <button class="btn_w" id="btn31" type="button" onclick="result31()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn32" type="button" onclick="result32()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn33" type="button" onclick="result33()"></button>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn34" type="button" onclick="result34()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn35" type="button" onclick="result35()"></button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn_w" id="btn36" type="button" onclick="result36()"></button>
+    <br>
+    <br>
+    
+    
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+ 
+</body>
+</html>
