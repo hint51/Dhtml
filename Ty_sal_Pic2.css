@@ -1,0 +1,89 @@
+.Step{
+  font-size: 18px;
+}
+.co{
+  font-size: 22px;
+}
+  .co{
+    font-size: 22px;
+  }
+  #hi{
+    background-color:powderblue;
+  }
+  p{
+    border:solid 1px gray;
+    width: 325px;
+    padding-bottom: 5px;
+    background-color:rgb(156, 190, 220)
+  }
+  .btn_w{
+    position: absolute;
+    width:240px;
+    height:22px;
+    left:88px;
+  }
+  
+  #btn1{
+    position: absolute;
+    top:179px;
+    
+  }
+  #btn2{
+    position: absolute;
+    top:225px;
+    
+  }
+  #btn3{
+    position: absolute;
+    top:250px;
+    
+  }
+  #btn4{
+    position: absolute;
+    top:295px;
+    left:65px;
+    width:267px;
+    height:22px;
+  }
+  #btn5{
+    position: absolute;
+    top:317px;
+    left:65px;
+    width:267px;
+    
+  }
+  #btn6{
+    position: absolute;
+    top:367px;
+    left:60px;
+    width:127px;
+   
+  }
+  #btn7{
+    position: absolute;
+    top:418px;
+    left:80px;
+    
+  }
+  #btn8{
+    position: absolute;
+    top:440px;
+    left:80px;
+  }
+  #btn9{
+    position: absolute;
+    top:490px;
+    left:80px;
+  }
+  #btn10{
+    position: absolute;
+    top:515px;
+    left:80px;
+  }
+  #btn11{
+    position: absolute;
+    width:251px;
+    top:562px;
+    left:15px;
+  }
+ 

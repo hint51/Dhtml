@@ -1,0 +1,76 @@
+
+    .co{
+      font-size: 22px;
+    }
+    p{
+      border:solid 1px gray;
+      width: 325px;
+      padding-bottom: 5px;
+      background-color:rgb(156, 190, 220)
+    }
+    #hi{
+        background-color:powderblue;
+      }
+    
+    #check1, #check2,#check3,#check4,#check5,#check6, #check7,#check8{
+        font-size: 25px;  
+    }
+   
+    #btn1{
+      font-size: 22px;
+      border-style: none;
+      background-color: rgb(224, 172, 149);
+      
+    }
+    #btn2{
+      font-size: 22px;
+      background-color: rgb(201, 236, 213);
+      border-style: none;
+    }
+    
+    #a1, #a2{
+        font-size: 25px;
+        float:left;
+    }
+    div{
+        border: solid 1px gray;
+        width:280px;
+        margin-left: 10px;
+        float:left;
+        background-color: cornsilk;
+    }
+   
+   
+     
+    #check5, #ch5{   /*일간*/
+      color:rgb(241, 11, 46);
+      
+    }
+   
+    font{
+        color:teal;
+    }
+    #bt1{    /*step1*/
+      font-weight:normal;
+    background-color:rgb(255, 251, 251);
+     }
+    #bt2{   /*step2*/
+    font-weight:normal;
+    background-color:rgb(255, 251, 251);
+    
+   }
+   #bt3{    /*step3*/
+    font-weight:normal;
+    background-color:rgb(255, 251, 251);
+    
+   }
+  #bt4{   /*step4*/
+    font-weight: bold;
+    background-color: rgb(196, 239, 206);
+  
+ }
+   
+    
+  
+  
+ 

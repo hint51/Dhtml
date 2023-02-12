@@ -1,0 +1,56 @@
+
+    .Step{
+        font-size: 18px;
+      }
+      .co{
+        font-size: 22px;
+      }
+     .hab{
+        font-size: 15px; 
+     }
+     #hi{
+        background-color:powderblue;
+      }
+      #hi_b{
+        background-color:rgb(232, 206, 165);
+      }
+      p{
+        border:solid 1px gray;
+        width: 325px;
+        padding-bottom: 5px;
+        background-color:rgb(156, 190, 220)
+      }
+  .menu{
+    font-size: 18px;
+  }
+  #check{
+      font-size: 30px;
+  }
+  #result{
+      font-size: 26px;
+  }
+  .nemo{
+      border:solid 1px gray;
+      width: 320px;
+      font-size: 17px;
+  }
+
+#bt1{    /*step1*/
+  font-weight:normal;
+background-color:rgb(255, 251, 251);
+ }
+#bt2{   /*step2*/
+font-weight:normal;
+background-color:rgb(255, 251, 251);
+
+}
+#bt3{    /*step3*/
+font-weight:normal;
+background-color:rgb(196, 239, 206);
+
+}
+#bt4{   /*step4*/
+font-weight: bold;
+background-color: rgb(255, 251, 251);
+
+}

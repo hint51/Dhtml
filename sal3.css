@@ -1,0 +1,54 @@
+
+  .co{
+    font-size: 22px;
+  }
+  
+  p{
+    border:solid 1px gray;
+    width: 325px;
+    padding-bottom: 5px;
+    background-color:rgb(156, 190, 220)
+  }
+  #hi{
+   background-color:powderblue;
+ }
+  
+ button{
+   font-size:18px;
+ }
+ .btn{
+   font-size:30px;
+  
+}
+ span{
+    font-size:30px;
+ }
+ #nemo1, #nemo2{
+    border:1px solid; padding:10px;
+    width: 300px;
+ }
+ #limit{
+    color: cornflowerblue;
+    font-size: 30px;
+ }
+ 
+ #b1, #b2{
+    background-color:rgba(116, 190, 230, 0.346)
+ }
+ #tit{
+    font-size: 20px;
+    border:1px solid; padding:10px;
+    text-align: center;
+    width:100px;
+    background-color:yellow;
+    
+ }
+ #know{
+    font-size: 24px;
+      }
+ #tip{
+    font-size: 16px;
+    border:1px solid; padding:10px;
+    width:300px;
+ }
+ 

@@ -1,0 +1,39 @@
+
+      .co{
+        font-size: 22px;
+      }
+     
+     
+      p{
+        border:solid 1px gray;
+        width: 325px;
+        padding-bottom: 5px;
+        background-color:rgb(156, 190, 220)
+      }
+  
+  
+  .nemo{
+      border:solid 1px gray;
+      width: 320px;
+      font-size: 17px;
+  }
+
+#bt1{    /*step1*/
+  font-weight:normal;
+background-color:rgb(196, 239, 206);
+ }
+#bt2{   /*step2*/
+font-weight:normal;
+background-color:rgb(255, 251, 251);
+
+}
+#bt3{    /*step3*/
+font-weight:normal;
+background-color:rgb(255, 251, 251);
+
+}
+#bt4{   /*step4*/
+font-weight: bold;
+background-color: rgb(255, 251, 251);
+
+}
