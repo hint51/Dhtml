@@ -25,64 +25,64 @@
   
   #btn1{
     position: absolute;
-    top:179px;
+    top:175px;
     
   }
   #btn2{
     position: absolute;
-    top:225px;
+    top:222px;
     
   }
   #btn3{
     position: absolute;
-    top:250px;
+    top:247px;
     
   }
   #btn4{
     position: absolute;
-    top:295px;
+    top:292px;
     left:65px;
     width:267px;
     height:22px;
   }
   #btn5{
     position: absolute;
-    top:317px;
+    top:314px;
     left:65px;
     width:267px;
     
   }
   #btn6{
     position: absolute;
-    top:367px;
+    top:364px;
     left:60px;
     width:127px;
    
   }
   #btn7{
     position: absolute;
-    top:418px;
+    top:414px;
     left:80px;
     
   }
   #btn8{
     position: absolute;
-    top:440px;
+    top:437px;
     left:80px;
   }
   #btn9{
     position: absolute;
-    top:490px;
+    top:487px;
     left:80px;
   }
   #btn10{
     position: absolute;
-    top:515px;
+    top:511px;
     left:80px;
   }
   #btn11{
     position: absolute;
-    width:251px;
+    width:248px;
     top:562px;
     left:15px;
   }
