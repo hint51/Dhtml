@@ -50,17 +50,17 @@ function test1(){
         }
     } else if (xx1==1 || xx1==3 || xx1==5 || xx1==7 || xx1==9)  { 
        
-        if (xx2==1 || xx2==2)  {
+        if (xx2==0 || xx2==1)  {
             yy2="丑"
-        } else if (xx2==3 || xx2==4) {
+        } else if (xx2==2 || xx2==3) {
             yy2="卯"
-        } else if (xx2==5 || xx2==6) {
+        } else if (xx2==4 || xx2==5) {
             yy2="巳"
-        } else if (xx2==7 || xx2==8) {
+        } else if (xx2==6 || xx2==7) {
             yy2="未"
-        } else if (xx2==9 || xx2==10) {
+        } else if (xx2==8 || xx2==9) {
             yy2="酉" 
-        } else if (xx2==11 || xx2==0) {
+        } else if (xx2==10 || xx2==11) {
             yy2="亥"
         }
     } 
@@ -242,17 +242,17 @@ function test1(){
         }
     } else if (xx5==1 || xx5==3 || xx5==5 || xx5==7 || xx5==9)  { //음간 
        
-        if (xx6==1 || xx6==2)  {
+        if (xx6==0 || xx6==1)  {
             yy6="丑"
-        } else if (xx6==3 || xx6==4) {
+        } else if (xx6==2 || xx6==3) {
             yy6="卯"
-        } else if (xx6==5 || xx6==6) {
+        } else if (xx6==4 || xx6==5) {
             yy6="巳"
-        } else if (xx6==7 || xx6==8) {
+        } else if (xx6==6 || xx6==7) {
             yy6="未"
-        } else if (xx6==9 || xx6==10) {
+        } else if (xx6==8 || xx6==9) {
             yy6="酉" 
-        } else if (xx6==11 || xx6==0) {
+        } else if (xx6==10 || xx6==11) {
             yy6="亥"
         }
     } 

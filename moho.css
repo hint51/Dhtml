@@ -23,10 +23,13 @@
     #ch1, #ch2,#ch3,#ch4,#ch5,#ch6, #ch7,#ch8{
         font-size: 25px;  
     }
-    #b1, #b2{
+    #chk1,#chk2,#chk3,#chk4,#chk5,#chk6, #chk7,#chk8{
+      font-size: 25px;  
+  }
+    #b1, #b2, #b3{
         font-size: 25px;
        }
-    #a1, #a2{
+    #a1, #a2, #a3{
         font-size: 25px;
         float:left;
     }
@@ -39,7 +42,7 @@
     }
    
    
-    #check7,#check3, #ch8, #ch4{
+    #check7,#check3, #ch8, #ch4, #chk5, #chk1{
         font-weight: 300;
         color: rgb(58, 45, 182);
     }

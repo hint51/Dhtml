@@ -51,17 +51,17 @@ function test(){
         }
     } else if (x1==1 || x1==3 || x1==5 || x1==7 || x1==9)  { 
        
-        if (x2==1 || x2==2)  {
+        if (x2==01 || x2==1)  {
             y2="丑"
-        } else if (x2==3 || x2==4) {
+        } else if (x2==2 || x2==3) {
             y2="卯"
-        } else if (x2==5 || x2==6) {
+        } else if (x2==4 || x2==5) {
             y2="巳"
-        } else if (x2==7 || x2==8) {
+        } else if (x2==6 || x2==7) {
             y2="未"
-        } else if (x2==9 || x2==10) {
+        } else if (x2==8 || x2==9) {
             y2="酉" 
-        } else if (x2==11 || x2==0) {
+        } else if (x2==10 || x2==11) {
             y2="亥"
         }
     } 
@@ -270,17 +270,17 @@ function test(){
         }
     } else if (x5==1 || x5==3 || x5==5 || x5==7 || x5==9)  { //음간 
        
-        if (x6==1 || x6==2)  {
+        if (x6==0 || x6==1)  {
             y6="丑"
-        } else if (x6==3 || x6==4) {
+        } else if (x6==2 || x6==3) {
             y6="卯"
-        } else if (x6==5 || x6==6) {
+        } else if (x6==4 || x6==5) {
             y6="巳"
-        } else if (x6==7 || x6==8) {
+        } else if (x6==6 || x6==7) {
             y6="未"
-        } else if (x6==9 || x6==10) {
+        } else if (x6==8 || x6==9) {
             y6="酉" 
-        } else if (x6==11 || x6==0) {
+        } else if (x6==10 || x6==11) {
             y6="亥"
         }
     } 
@@ -450,12 +450,16 @@ function test(){
 }
 function Tip(){
     if (document.getElementById("T2").innerText=="") {
-        document.getElementById("T2").innerHTML = "月: 자축인묘(인성)";
-        document.getElementById("T3").innerHTML = "時: 자축술해(관성)";
-        document.getElementById("T4").innerHTML = "공통 : 진사(비견), 오미(식상), 신유(재성)";
+        document.getElementById("T2").innerHTML = "月: 자축(인성)";
+        document.getElementById("T3").innerHTML = "時: 자축(관성)";
+        document.getElementById("T4").innerHTML = "공통 : 인묘(인성), 진사(비견), 오미(식상)";
+        document.getElementById("T5").innerHTML = "공통 : 신유(재성), 술해(관성)";
+       
     } else {
         document.getElementById("T2").innerHTML=""
         document.getElementById("T3").innerHTML=""
         document.getElementById("T4").innerHTML=""
+        document.getElementById("T5").innerHTML=""
+       
     }
 }
