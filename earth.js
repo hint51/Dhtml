@@ -59,3 +59,19 @@ function test() {
     document.getElementById("result").innerHTML = y1;
     
 }
+
+function Tip(){
+    if (document.getElementById("T2").innerText=="") {
+        document.getElementById("T2").innerHTML = "인신사해 : 7 7 16 (戊로 시작)";
+        document.getElementById("T3").innerHTML = "자오묘유 : 10 20 (午: 10 9 11)";
+        document.getElementById("T4").innerHTML = "진술축미 : 9 3 18 ( 잡다한 기운)";
+        document.getElementById("T5").innerHTML = "";
+       
+    } else {
+        document.getElementById("T2").innerHTML=""
+        document.getElementById("T3").innerHTML=""
+        document.getElementById("T4").innerHTML=""
+        document.getElementById("T5").innerHTML=""
+       
+    }
+}
