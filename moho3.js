@@ -446,7 +446,7 @@ function test2(){
     }   
     if (xxx6==0 || xxx6==2 || xxx6==4 || xxx6==6 || xxx6==8 || xxx6==10){ //양 
         if (xxx7==0) {//甲
-           if (xxx8==0 || xxx8==2)  {//子 or 寅
+           if (xxx8==2)  {// 寅
             yyy5="戊"  //무게합 화의 인성
            } else if (xxx8==4) { //辰
             yyy5="壬"  // 정임합 목의 비견
@@ -454,11 +454,11 @@ function test2(){
             yyy5="丙"  // 병신합 수의 식상
            } else if (xxx8==8) { //申
             yyy5="庚"  // 을경합 금의 재성
-           } else if (xxx8==10) { //戌
+           } else if (xxx8==0 || xxx8==10) { //子 or 戌
             yyy5="甲"  // 갑기합 토의 관성
            }
         } else if (xxx7==1) { //乙
-            if (xxx8==1 || xxx8==3)  {//丑 or 卯
+            if (xxx8==3)  {// 卯
                 yyy5="戊"  //무게합 화의 인성
             } else if (xxx8==5) { //巳
                 yyy5="壬"  // 정임합 목의 비견
@@ -466,11 +466,11 @@ function test2(){
                 yyy5="丙"  // 병신합 수의 식상
             } else if (xxx8==9) { //酉
                 yyy5="庚"  // 을경합 금의 재성
-            } else if (xxx8==11) { //亥
+            } else if (xxx8==1 || xxx8==11 ) { //丑 or 亥
                 yyy5="甲"  // 갑기합 토의 관성
             }
         } else if (xxx7==2) {//丙
-            if (xxx8==0 || xxx8==2)  {//子 or 寅
+            if (xxx8==2)  {// 寅
                 yyy5="甲"  // 갑기합 토의 인성
             } else if (xxx8==4) { //辰
                 yyy5="戊"  //무게합 화의 비견
@@ -478,11 +478,11 @@ function test2(){
                 yyy5="壬"  // 정임합 목의 식상
             } else if (xxx8==8) { //申
                 yyy5="丙"  // 병신합 수의 재성
-            } else if (xxx8==10) { //戌
+            } else if (xxx8==0||xxx8==10) { //子 or戌
                 yyy5="庚"  // 을경합 금의 관성
             }
         } else if (xxx7==3) {//丁
-            if (xxx8==1 || xxx8==3)  {//丑 or 卯
+            if ( xxx8==3)  {// 卯
                 yyy5="甲"  // 갑기합 토의 인성
             } else if (xxx8==5) { //巳
                 yyy5="戊"  //무게합 화의 비견
@@ -490,11 +490,11 @@ function test2(){
                 yyy5="壬"  // 정임합 목의 식상
             } else if (xxx8==9) { //酉
                 yyy5="丙"  // 병신합 수의 재성
-            } else if (xxx8==11) { //亥
+            } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                 yyy5="庚"  // 을경합 금의 관성
             }
         } else if (xxx7==4) {//戊
-            if (xxx8==0 || xxx8==2)  {//子 or 寅
+            if (xxx8==2)  {//寅
                 yyy5="庚"  // 을경합 금의 인성
             } else if (xxx8==4) { //辰
                 yyy5="甲"  // 갑기합 토의 비견
@@ -502,11 +502,11 @@ function test2(){
                 yyy5="戊"  //무게합 화의 식상
             } else if (xxx8==8) { //申
                 yyy5="壬"  // 정임합 목의 재성
-            } else if (xxx8==10) { //戌
+            } else if (xxx8==0 || xxx8==10) { //子 or 戌
                 yyy5="丙"  // 병신합 수의 관성
             }
         } else if (xxx7==5) {//己
-            if (xxx8==1 || xxx8==3)  {///丑 or 卯
+            if (xxx8==3)  {//卯
                 yyy5="庚"  // 을경합 금의 인성
             } else if (xxx8==5) { //巳
                 yyy5="甲"  // 갑기합 토의 비견
@@ -514,11 +514,11 @@ function test2(){
                 yyy5="戊"  //무게합 화의 식상
             } else if (xxx8==9) { //酉
                 yyy5="壬"  // 정임합 목의 재성
-            } else if (xxx8==11) { //亥
+            } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                 yyy5="丙"  // 병신합 수의 관성
             }  
         } else if (xxx7==6) {//庚
-            if (xxx8==0 || xxx8==2)  {//子 or 寅
+            if (xxx8==2)  {//寅
                 yyy5="丙"  // 병신합 수의 인성
             } else if (xxx8==4) { //辰
                 yyy5="庚"  // 을경합 금의 비견
@@ -526,11 +526,11 @@ function test2(){
                 yyy5="甲"  // 갑기합 토의 식상
             } else if (xxx8==8) { //申
                 yyy5="戊"  //무게합 화의 재성
-            } else if (xxx8==10) { //戌
+            } else if (xxx8==0 || xxx8==10) { //子 or 戌
                 yyy5="壬"  // 정임합 목의 관성
             }
         } else if (xxx7==7) {//辛
-            if (xxx8==1 || xxx8==3)  {///丑 or 卯
+            if (xxx8==3)  {//卯
                 yyy5="丙"  // 병신합 수의 인성
             } else if (xxx8==5) { //巳
                 yyy5="庚"  // 을경합 금의 비견
@@ -538,11 +538,11 @@ function test2(){
                 yyy5="甲"  // 갑기합 토의 식상
             } else if (xxx8==9) { //酉
                 yyy5="戊"  //무게합 화의 재성
-            } else if (xxx8==11) { //亥
+            } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                 yyy5="壬"  // 정임합 목의 관성
             }  
         } else if (xxx7==8) {//壬
-            if (xxx8==0 || xxx8==2)  {//子 or 寅
+            if (xxx8==2)  {//寅
                 yyy5="壬"  // 정임합 목의 인성
             } else if (xxx8==4) { //辰
                 yyy5="丙"  // 병신합 수의 비견
@@ -550,11 +550,11 @@ function test2(){
                 yyy5="庚"  // 을경합 금의 식상
             } else if (xxx8==8) { //申
                 yyy5="甲"  // 갑기합 토의 재성
-            } else if (xxx8==10) { //戌
+            } else if (xxx8==0 || xxx8==10) { //子 or 戌
                 yyy5="戊"  //무게합 화의 관성
             }
         } else if (xxx7==9) {//癸
-            if (xxx8==1 || xxx8==3)  {///丑 or 卯
+            if (xxx8==3)  {//卯
                 yyy5="壬"  // 정임합 목의 인성
             } else if (xxx8==5) { //巳
                 yyy5="丙"  // 병신합 수의 비견
@@ -562,13 +562,13 @@ function test2(){
                 yyy5="庚"  // 을경합 금의 식상
             } else if (xxx8==9) { //酉
                 yyy5="甲"  // 갑기합 토의 재성
-            } else if (xxx8==11) { //亥
+            } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                 yyy5="戊"  //무게합 화의 관성
             }  
         }
     } else if (xxx6==1 || xxx6==3 || xxx6==5 || xxx6==7 || xxx6==9 || xxx6==11)  { //음
         if (xxx7==0) {//甲
-            if (xxx8==0 || xxx8==2)  {//子 or 寅
+            if ( xxx8==2)  {//寅
              yyy5="癸"  //무게합 화의 인성
             } else if (xxx8==4) { //辰
              yyy5="丁"  // 정임합 목의 비견
@@ -576,11 +576,11 @@ function test2(){
              yyy5="辛"  // 병신합 수의 식상
             } else if (xxx8==8) { //申
              yyy5="乙"  // 을경합 금의 재성
-            } else if (xxx8==10) { //戌
+            } else if (xxx8==0 ||xxx8==10) { //子 or 戌
              yyy5="己"  // 갑기합 토의 관성
             }
          } else if (xxx7==1) { //乙
-             if (xxx8==1 || xxx8==3)  {//丑 or 卯
+             if (xxx8==3)  {//卯
                  yyy5="癸"  //무게합 화의 인성
              } else if (xxx8==5) { //巳
                  yyy5="丁"  // 정임합 목의 비견
@@ -588,11 +588,11 @@ function test2(){
                  yyy5="辛"  // 병신합 수의 식상
              } else if (xxx8==9) { //酉
                  yyy5="乙"  // 을경합 금의 재성
-             } else if (xxx8==11) { //亥
+             } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                  yyy5="己"  // 갑기합 토의 관성
              }
          } else if (xxx7==2) {//丙
-             if (xxx8==0 || xxx8==2)  {//子 or 寅
+             if (xxx8==2)  {//寅
                  yyy5="己"  // 갑기합 토의 인성
              } else if (xxx8==4) { //辰
                  yyy5="癸"  //무게합 화의 비견
@@ -600,11 +600,11 @@ function test2(){
                  yyy5="丁"  // 정임합 목의 식상
              } else if (xxx8==8) { //申
                  yyy5="辛"  // 병신합 수의 재성
-             } else if (xxx8==10) { //戌
+             } else if (xxx8==0 || xxx8==10) { //子 or 戌
                  yyy5="乙"  // 을경합 금의 관성
              }
          } else if (xxx7==3) {//丁
-             if (xxx8==1 || xxx8==3)  {//丑 or 卯
+             if (xxx8==3)  {//卯
                  yyy5="己"  // 갑기합 토의 인성
              } else if (xxx8==5) { //巳
                  yyy5="癸"  //무게합 화의 비견
@@ -612,11 +612,11 @@ function test2(){
                  yyy5="丁"  // 정임합 목의 식상
              } else if (xxx8==9) { //酉
                  yyy5="辛"  // 병신합 수의 재성
-             } else if (xxx8==11) { //亥
+             } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                  yyy5="乙"  // 을경합 금의 관성
              }
          } else if (xxx7==4) {//戊
-             if (xxx8==0 || xxx8==2)  {//子 or 寅
+             if (xxx8==2)  {//寅
                  yyy5="乙"  // 을경합 금의 인성
              } else if (xxx8==4) { //辰
                  yyy5="己"  // 갑기합 토의 비견
@@ -624,11 +624,11 @@ function test2(){
                  yyy5="癸"  //무게합 화의 식상
              } else if (xxx8==8) { //申
                  yyy5="丁"  // 정임합 목의 재성
-             } else if (xxx8==10) { //戌
+             } else if (xxx8==0 || xxx8==10) { //子 or 戌
                  yyy5="辛"  // 병신합 수의 관성
              }
          } else if (xxx7==5) {//己
-             if (xxx8==1 || xxx8==3)  {///丑 or 卯
+             if (xxx8==3)  {//卯
                  yyy5="乙"  // 을경합 금의 인성
              } else if (xxx8==5) { //巳
                  yyy5="己"  // 갑기합 토의 비견
@@ -636,11 +636,11 @@ function test2(){
                  yyy5="癸"  //무게합 화의 식상
              } else if (xxx8==9) { //酉
                  yyy5="丁"  // 정임합 목의 재성
-             } else if (xxx8==11) { //亥
+             } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                  yyy5="辛"  // 병신합 수의 관성
              }  
          } else if (xxx7==6) {//庚
-             if (xxx8==0 || xxx8==2)  {//子 or 寅
+             if (xxx8==2)  {//寅
                  yyy5="辛"  // 병신합 수의 인성
              } else if (xxx8==4) { //辰
                  yyy5="乙"  // 을경합 금의 비견
@@ -648,11 +648,11 @@ function test2(){
                  yyy5="己"  // 갑기합 토의 식상
              } else if (xxx8==8) { //申
                  yyy5="癸"  //무게합 화의 재성
-             } else if (xxx8==10) { //戌
+             } else if (xxx8==0 || xxx8==10) { //子 or 戌
                  yyy5="丁"  // 정임합 목의 관성
              }
          } else if (xxx7==7) {//辛
-             if (xxx8==1 || xxx8==3)  {///丑 or 卯
+             if (xxx8==3)  {//卯
                  yyy5="辛"  // 병신합 수의 인성
              } else if (xxx8==5) { //巳
                  yyy5="乙"  // 을경합 금의 비견
@@ -660,11 +660,11 @@ function test2(){
                  yyy5="己"  // 갑기합 토의 식상
              } else if (xxx8==9) { //酉
                  yyy5="癸"  //무게합 화의 재성
-             } else if (xxx8==11) { //亥
+             } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                  yyy5="丁"  // 정임합 목의 관성
              }  
          } else if (xxx7==8) {//壬
-             if (xxx8==0 || xxx8==2)  {//子 or 寅
+             if (xxx8==2)  {//寅
                  yyy5="丁"  // 정임합 목의 인성
              } else if (xxx8==4) { //辰
                  yyy5="辛"  // 병신합 수의 비견
@@ -672,11 +672,11 @@ function test2(){
                  yyy5="乙"  // 을경합 금의 식상
              } else if (xxx8==8) { //申
                  yyy5="己"  // 갑기합 토의 재성
-             } else if (xxx8==10) { //戌
+             } else if (xxx8==0 || xxx8==10) { //子 or 戌
                  yyy5="癸"  //무게합 화의 관성
              }
          } else if (xxx7==9) {//癸
-             if (xxx8==1 || xxx8==3)  {///丑 or 卯
+             if (xxx8==3)  {//卯
                  yyy5="丁"  // 정임합 목의 인성
              } else if (xxx8==5) { //巳
                  yyy5="辛"  // 병신합 수의 비견
@@ -684,7 +684,7 @@ function test2(){
                  yyy5="乙"  // 을경합 금의 식상
              } else if (xxx8==9) { //酉
                  yyy5="己"  // 갑기합 토의 재성
-             } else if (xxx8==11) { //亥
+             } else if (xxx8==1 || xxx8==11) { //丑 or 亥
                  yyy5="癸"  //무게합 화의 관성
              }  
          }
