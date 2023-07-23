@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--오행의 소속-->
+<!DOCTYPE html> <!--육효-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 </head>
 <body>
   <link rel="stylesheet" href="ind.css" type="text/css">
-  <link rel="stylesheet" href="five3.css" type="text/css">
+  <link rel="stylesheet" href="sixbar1.css" type="text/css">
   <p> 
     
      <select class="co" onchange="location.href=this.value">
@@ -29,21 +29,21 @@
     <option value="index.html">Home</option>
     <option value="eight2.html">방위</option>
     <option value="mmfive3.html">풍수오행</option>
-    <option value="sound4.html">납음오행</option>  
-    <option value="sixbar.html">육효</option>
+    <option value="sound4.html">납음오행</option>
+    <option value="sixbar.html" selected>육효</option>  
   </select>
        &nbsp;
      </p> 
      <br>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
     
-     <button type="button" class="Step" onclick="location.href='five1.html'">step1①</button>
-     <button type="button" class="Step" onclick="location.href='five2.html'">step1②</button>
-     <button type="button" id="hi" class="Step" onclick="location.href='five3.html'">step2</button>
+    
+     <button type="button" id="hi" class="Step" onclick="location.href='sixbar1.html'">혼천납갑</button>
+     <button type="button" class="Step" onclick="location.href='sixbar.html'">소속궁</button>
     
     
-    <script type="text/javascript" src="five3.js">
+    <script type="text/javascript" src="sixbar1.js">
     </script>
 
     <br><br>
@@ -60,7 +60,18 @@
     &nbsp;&nbsp;&nbsp;
     <span id="result"></span>
     </div>
+    <br>
+    <button id="tip1" onclick="hint1()">Tip1</button>
+    <div id="hint1" style="display:none;">
+      
+   </div>
+    <button id="tip2" onclick="hint2()">Tip2</button>
     
- 
+    <div id="hint2" style="display:none;">
+      
+    </div>
+    <script type="text/javascript" src="sixbarTip1.js"></script>
+
+    
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--오행의 소속-->
+<!DOCTYPE html> <!--육효-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 </head>
 <body>
   <link rel="stylesheet" href="ind.css" type="text/css">
-  <link rel="stylesheet" href="five3.css" type="text/css">
+  <link rel="stylesheet" href="sixbar.css" type="text/css">
   <p> 
     
      <select class="co" onchange="location.href=this.value">
@@ -29,8 +29,8 @@
     <option value="index.html">Home</option>
     <option value="eight2.html">방위</option>
     <option value="mmfive3.html">풍수오행</option>
-    <option value="sound4.html">납음오행</option>  
-    <option value="sixbar.html">육효</option>
+    <option value="sound4.html">납음오행</option> 
+    <option value="sixbar.html">육효</option> 
   </select>
        &nbsp;
      </p> 
@@ -43,12 +43,14 @@
      <button type="button" id="hi" class="Step" onclick="location.href='five3.html'">step2</button>
     
     
-    <script type="text/javascript" src="five3.js">
+    <script type="text/javascript" src="sixbar.js">
     </script>
 
     <br><br>
     <div id="nemo">
     <button id="a1" onclick="test()" >클릭</button>
+    
+
     &nbsp;&nbsp;&nbsp;
     <span id="check"></span>
     <br>
@@ -60,7 +62,19 @@
     &nbsp;&nbsp;&nbsp;
     <span id="result"></span>
     </div>
+    <br>
+    <button id="tip1" onclick="hint1()">Tip1</button>
+    <div id="hint1" style="display:none;">
+      
+   </div>
+    <button id="tip2" onclick="hint2()">Tip2</button>
     
- 
+    <div id="hint2" style="display:none;">
+    
+    
+      
+    </div>
+    <script type="text/javascript" src="sixbarTip.js"></script>
+    
 </body>
 </html>
