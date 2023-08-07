@@ -1,0 +1,55 @@
+.Step{
+  font-size: 15px;
+  width: 80px;
+  height: 30px;
+  
+}
+#img1{
+  width: 325px;
+}
+#a1{
+  font-size: 20px;
+}
+.co{
+    font-size: 22px;
+  }
+  #hi{
+    background-color:powderblue;
+  }
+  p{
+    border:solid 1px gray;
+    width: 325px;
+    padding-bottom: 5px;
+    background-color:rgb(156, 190, 220)
+  }
+  .btn_w{
+    position: absolute;
+    width:45px;
+    height: 175px;
+    top:235px;
+  }
+  #btn1{
+   left:16px;
+  }
+  #btn2{
+   left:70px;
+  }
+  #btn3{
+   left:127px;
+  }
+  #btn4{
+    width: 35px;
+    left:180px;
+  }
+  #btn5{
+    width: 107px;
+    left:220px;
+  }
+  #btn6{
+    width: 180px;
+    left:84px;
+    top:207px; 
+    height:25px;
+  }
+  
+  
